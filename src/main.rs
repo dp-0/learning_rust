@@ -1,13 +1,8 @@
 fn main() {
 
 
-//escape sequence
-    println!("lets brak the line \n using escape sequence");
+//postional parameter in print
 
-    println!("begin line \t \\t escape sequence");
-
-    println!("double quote \"Dinesh\"");
-
-    println!("lets pratice overwritten \r what happen  overwritten");
+print!("this is second argument {1} and this one is first {0}", "one", "two");
 
 }
