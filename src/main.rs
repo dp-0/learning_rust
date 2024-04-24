@@ -1,3 +1,11 @@
 fn main() {
-    println!("Hello, world!");
+    //this is single line comment
+
+    /* this is
+   multi
+  line
+ comment
+ */
+
+ print!("Hello from rust");
 }
