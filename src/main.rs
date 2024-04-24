@@ -1,13 +1,11 @@
 fn main() {
 
-    print!("hello this is from print
-        but
-            on
-                multiple
-        line");
 
-    println!("how did this happen");
+//escape sequence
+    println!("lets brak the line \n using escape sequence");
 
-    println!("we can format the string as we want in print macro");
+    println!("begin line \t \\t escape sequence");
+
+    println!("double quote \"Dinesh\"");
 
 }
