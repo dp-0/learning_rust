@@ -1,21 +1,13 @@
 fn main() {
-    //this is single line comment
 
-    /* this is
-   multi
-  line
- comment
- */
+    print!("hello this is from print
+        but
+            on
+                multiple
+        line");
 
- println!("lets display a dynamic message i.e number =  {}", 10);
+    println!("how did this happen");
 
- //learnig to print string
-
-println!("my name is {} , my last name is {}","Dinesh","Phuyel");
-
-//learning the print
-print!("there is no line break");
-print!("This is next line");
-print!("o i get everything on same line");
+    println!("we can format the string as we want in print macro");
 
 }
